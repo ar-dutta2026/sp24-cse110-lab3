@@ -1,2 +1,2 @@
 # Lab 2 - Starter
-https://ar-dutta2026.github.io/Lab2/ 
+https://ar-dutta2026.github.io/sp24-cse110-lab3/
