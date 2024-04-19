@@ -19,7 +19,7 @@ body {
     font-weight: 400;
     font-style: normal;
 }
-
+     
 h1, h2, h3 {
     font-family: "Montserrat", 'Arial', sans-serif;
     margin-bottom: 0.75rem;
@@ -150,3 +150,85 @@ a:hover, a:active, button:hover {
 .mb-1 { margin-bottom: 1rem; }
 .pt-1 { padding-top: 1rem; }
 .pb-1 { padding-bottom: 1rem; }
+
+
+/* Class Selector */
+.some-class {
+    color: blue;
+  }
+  
+  /* ID Selector */
+  #unique-element {
+    background-color: yellow;
+  }
+  
+  /* Universal Selector */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Element Selector */
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  /* Attribute Selector */
+  [type="button"] {
+    cursor: pointer;
+  }
+  
+  /* Pseudo-class Selector */
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Selector List */
+  h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Combinators */
+  
+  /* Descendant Combinator */
+  .container .nested-item {
+    padding-left: 20px;
+  }
+  
+  /* Child Combinator */
+  .container > .child-item {
+    border: 1px solid #ccc;
+  }
+  
+  /* General Sibling Combinator */
+  h2 ~ p {
+    color: red;
+  }
+  
+  /* Adjacent Sibling Combinator */
+  h2 + p {
+    font-style: italic;
+  }
+  
+  /* Combining Two Selectors */
+  button.some-class {
+    padding: 10px 20px;
+  }
+  
+  /* New Selectors */
+  
+  /* :has() Pseudo-class Selector */
+  /* Selects a .card that has a .premium-badge as a descendant */
+  .card:has(.premium-badge) {
+    border: 2px solid gold;
+  }
+  
+  /* Nested Selectors */
+  /* Assuming support for nesting, this targets the nested .nested-item within .container */
+  .container {
+    background: #eee;
+  
+    .nested-item {
+      color: green;
+    }
+  }
+  
