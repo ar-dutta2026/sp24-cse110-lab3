@@ -15,10 +15,15 @@ body {
 /* Custom Font for headings */
 .montserrat {
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
+@supports (font-optical-sizing: auto) {
+    .montserrat {
+      font-optical-sizing: auto;
+    }
+  }
+  
      
 h1, h2, h3 {
     font-family: "Montserrat", 'Arial', sans-serif;
